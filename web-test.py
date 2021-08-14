@@ -18,7 +18,7 @@ class WebTest(unittest.TestCase):
     def testSearchFadli(self):
         self.driver.get("https://google.com")
         self.driver.find_element_by_name("q").send_keys("Fadli")
-        self.driver.find_element_by_name("btnK1").click()
+        self.driver.find_element_by_name("btnK").click()
 
     @classmethod
     def tearDownClass(cls):

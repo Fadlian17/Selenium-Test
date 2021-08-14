@@ -21,7 +21,26 @@ search_2.send_keys("secret_sauce")
 search_2.send_keys(Keys.RETURN)
 button = driver.find_element_by_id("login-button")
 button.click()
+button2 = driver.find_element_by_id("add-to-cart-sauce-labs-backpack")
+button2.click()
+button3 = driver.find_element_by_id("shopping_cart_container")
+button3.click()
+buttonCheck = driver.find_element_by_id("checkout")
+buttonCheck.click()
 
+
+#Checkout
+# checkout = driver.find_element_by_id("first-name")
+# checkout.send_keys("fadli")
+# checkout.send_keys(Keys.RETURN)
+# checkout_2 = driver.find_element_by_id("last-name")
+# checkout_2.send_keys("alfa")
+# checkout_2.send_keys(Keys.RETURN)
+# checkout_3 = driver.find_element_by_id("postal-code")
+# checkout_3.send_keys("13370")
+# checkout_3.send_keys(Keys.RETURN)
+# buttonContinue = driver.find_element_by_id("continue")
+# buttonContinue.click()
 # try:
 #     main = WebDriverWait(driver,10).until(
 #         EC.presence_of_element_located((By.ID,"main"))
